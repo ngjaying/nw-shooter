@@ -1,9 +1,29 @@
 {
-  "name": "nw-shooter",
-  "main": "index.html",
-  "window" : {
-  	"toolbar" : true,
-  	"width" : 800,
-  	"height" : 600
-  }
+	"name": "nw-shooter",
+	"main": "index.html",
+	"description": "App to download subtitle from shooter.cn",
+	"version": "0.1.0",
+	"keywords": "shooter subtitle 字幕 射手",
+	"window": {
+		"title": "射手字幕下载器",
+		"icon": "images/shooter.png",
+		"toolbar": false,
+		"frame": true,
+		"width": 800,
+		"height": 600,
+		"position": "mouse",
+		"min_width": 400,
+		"min_height": 300
+	},
+	"dependencies": {
+		"node-shooter": "~0.0.2"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngjaying/nw-shooter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ngjaying/nw-shooter/issues"
+	}
 }

@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Test node-webkit</title>
+	<title>射手字幕下载器</title>
+	<link rel="stylesheet" type="text/css" href="css/ns.css">
 </head>
 <body>
-	<label for="inputFile">Select a file</label><input type="file" id="inputFile" />
-	<div id="divMessage"></div>
+	<input type="file" id="inputFile" class="fu_input" accept=".avi,.mp4,.mkv,.rmvb,.rm,.asf,.divx,.mpg,.mpeg,.mpe,.wmv,.vob" multiple />
+	<div class="fu" id="divFile">点击选择电影文件</div>
+	<div id="messageDiv"></div>
 	<script src="index.js"></script>
 </body>
 </html>
