@@ -9,6 +9,9 @@
 	font: 12pt bold;
 	color: #bbb;
 }
+.fu.hover {
+  border: 3px dashed green;
+}
 .loading {
   color: black;
   background-color: hsl(0, 100%, 50%); /*red*/
